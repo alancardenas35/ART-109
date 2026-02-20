@@ -1,0 +1,118 @@
+body {
+    animation: change-color 10s infinite alternate;
+
+}
+
+@keyframes change-color {
+    0% {
+        background-color: antiquewhite;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: aquamarine;
+    }
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 150px auto;
+    animation: skew 2s infinite alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    100% {
+        transform: skew(30deg, 20deg);
+    }
+}
+
+.square {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 150px auto;
+    transition: all 1s;
+    
+}
+
+
+
+.square:hover {
+    background-color: rgb(255, 0, 170);
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: rgb(98, 143, 143);
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .5s;
+}
+
+
+.button:hover {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.5);
+}
+
+
+.loading{
+    background-color: green;
+    animation: stretch 5s 3 alternate;
+    width: 80vw;
+}
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+
+    100% {
+        width: 80vw;
+    }
+}
+
+.Hello {
+animation: pulse 5s 1 alternate-reverse;
+width: 100vw;
+font-size: large;
+font-family: fantasy;
+
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1; 
+  }
+}
+
+
+
