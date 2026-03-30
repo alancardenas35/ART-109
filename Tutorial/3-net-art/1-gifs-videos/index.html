@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G7L4YzGAvMA?si=FzBBrzu12g-NErPo&mute=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img src="media/dance-dolphin.gif" alt="dancing dolphin" class="dancing-dolphin">
+        <div class="swim-wild-div">
+            <p>swim wild swim free swim wild swim free swim wild swim free swim wild swim free swim wild swim free</p>
+            <img src="media/swim-dolphin.gif" alt="swimming dolphin" class="swimming-dolphin">
+        </div>
+        <!-- autoplay video -->
+        <video width="180" height="320" autoplay muted loop>
+            <source src="media/dolphin-video.mp4" type="video/mp4">
+        </video>
+        <!-- hover videos -->
+        <video class="hover-video" width="180" height="320" autoplay muted loop>
+            <source src="media/dolphin-video.mp4" type="video/mp4">
+        </video>
+        <video class="hover-video" width="180" height="320" autoplay muted loop>
+            <source src="media/dolphin-video.mp4" type="video/mp4">
+        </video>
+        <!-- click on play video  -->
+        </video>
+        <video class="click-video" width="180" height="320" autoplay muted loop>
+            <source src="media/dolphin-video.mp4" type="video/mp4">
+        </video>
+
+        <video id="webcam" autoplay playinline></video>
+    </main>
+
+
+    <script src="js/video.js"></script>
+    <script src="js/webcam.js"></script>
+</body>
+
+</html>
