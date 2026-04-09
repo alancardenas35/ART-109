@@ -1,0 +1,22 @@
+
+.spinning-cross {
+    position:absolute;
+    top: 40px;
+    left: 50px;
+}
+
+
+
+.html {
+    scroll-behavior:smooth;
+}
+
+
+.spinning-cross {
+    position: relative;
+    margin: 90px auto;
+    max-width: 800px;
+    
+}
+
+
