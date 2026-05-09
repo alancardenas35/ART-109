@@ -1,0 +1,60 @@
+body {
+font-family: helvetica;
+background: #f6f3ee;
+text-align: center;
+color: #222;
+
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+}
+
+
+.gallery img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    filter: brightness(75%0);
+}
+
+
+#box {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .7);
+    padding-top: 50px;
+}
+
+#box img {
+    width: 80;
+    max-width: 500px;
+    border-radius: 15px;
+
+}
+
+#box p {
+    color: white;
+    font-size: 40px;
+
+}
+
+span {
+    color: white; 
+    font-size: 40px;
+    cursor: pointer;
+
+}
