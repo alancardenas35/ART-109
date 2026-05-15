@@ -1,8 +1,8 @@
 body {
-font-family: helvetica;
-background: #f6f3ee;
+font-family: monospace;
+background: #708238;
 text-align: center;
-color: #222;
+color: #F5f1e8;
 
 
 }
@@ -20,7 +20,7 @@ color: #222;
     width: 220px;
     height: 280px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 40px;
     cursor: pointer;
     transition: .3s;
 }
@@ -47,7 +47,7 @@ color: #222;
 }
 
 #box p {
-    color: white;
+    color: #d8c3a5;
     font-size: 40px;
 
 }
